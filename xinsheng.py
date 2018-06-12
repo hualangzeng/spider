@@ -37,8 +37,8 @@ login_param = {'actionFlag':	'loginAuthenticate',
 'redirect_local':'',
 'redirect_modify':	'',
 'getloginMethod':	'null',
-'uid':	'z00356451',
-'password':	'zwy356451f++',
+'uid':	'123',
+'password':	'123',
 'loginFlag':	'byUid'}
 s = requests.session()
 r = s.post(login_url, headers = login_headers, data=login_param, verify=False)
